@@ -6,6 +6,7 @@ public class Application {
         System.out.println("the first git test..");
         System.out.println("the second git test..");
         System.out.println("test git stash....");
+        System.out.println("test git push....");
 
     }
 }
