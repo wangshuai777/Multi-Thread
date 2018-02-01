@@ -8,6 +8,7 @@ public class Application {
         System.out.println("test git stash....");
         System.out.println("test git push....");
         System.out.println("test git merge..");
+        System.out.println("test git stash again..");
 
     }
 }
