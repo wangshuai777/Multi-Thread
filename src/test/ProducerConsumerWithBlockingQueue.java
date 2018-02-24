@@ -40,12 +40,12 @@ class ConsumeQ implements Runnable{
 
 class Resource3{
 
-    private BlockingQueue queue=new LinkedBlockingQueue(10);
+    private BlockingQueue queues=new LinkedBlockingQueue(10);
 
     //生产
     public void produce(){
         try {
-            queue.put(1);
+            queues.put(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -54,7 +54,7 @@ class Resource3{
     //消费
     public void consume(){
         try {
-            queue.take();
+            queues.take();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
